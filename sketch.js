@@ -38,7 +38,8 @@ function setup() {
 
 
 function draw() {
-  rectMode(CENTER);
+  ball.fillStyle = "Green";
+  ball.fillStyle = "#FF0000";
   background(0);
   ground.display()
   leftside.display()
